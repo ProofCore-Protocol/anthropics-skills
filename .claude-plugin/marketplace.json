@@ -71,9 +71,11 @@
     {
       "name": "proofcore-contract-auditor",
       "description": "Smart contract static analysis and verifiable cryptographic audit anchoring.",
-      "version": "1.0.0",
-      "author": "ProofCore Protocol",
-      "entrypoint": "skills/proofcore-contract-auditor/SKILL.md"
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/proofcore-contract-auditor"
+      ]
     }
   ]
 }
