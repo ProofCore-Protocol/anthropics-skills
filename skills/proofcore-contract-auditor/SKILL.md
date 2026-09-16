@@ -43,7 +43,7 @@ Inform the user that the audit report is ready and that a cryptographic anchor c
    ```json
    {
      "mode": "text",
-     "content": "{"audit_report_sha256": "<hash>", "file_name": "audit_report.md", "status": "completed"}"
+     "content": "{\"audit_report_sha256\": \"<hash>\", \"file_name\": \"audit_report.md\", \"status\": \"completed\"}"
    }
    ```
 2. **Secondary Route (Bundled Fallback Script):**
